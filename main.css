@@ -1,0 +1,61 @@
+body {
+    background: #dbdbdb;
+    margin:0;
+}
+div {
+    box-sizing: border-box;
+}
+div.header {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    background-color: white;
+}
+div.header h1 {
+    margin: 0;
+    align-items: center;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+header {
+    background: white;
+    margin: 10px;
+}
+.container_space {
+    background-color: grey;
+    margin: 2%;
+    width: 100%;
+    height:auto;
+}
+div.post {
+    background: white;
+    margin-top: 10px;
+    margin: 0;
+    border-radius: 1%;
+}
+div.container {
+width: 600px;
+margin: auto;
+}
+img  {
+    width: 600px;
+    height: auto;
+}
+div.post h2, div.post p {
+    padding: 10px;
+    margin: 0;
+}
+div.post .post-header div:first-child {
+    display:inline-block;
+    width:80%;
+}
+div.post .post-header div:last-child {
+    display:inline-block;
+    width: 20%;
+    color: lightgrey;
+    padding-right: 10px;
+}
+span{
+    float:right;
+}
